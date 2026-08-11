@@ -772,11 +772,15 @@ a {
   position: absolute;
   z-index: -1;
   right: 1%;
-  bottom: 1.5%;
+  bottom: 120px; /* subir sombra */
   left: 1%;
   height: 15%;
   border-radius: 50%;
-  background: radial-gradient(ellipse, rgba(4, 40, 79, 0.25), rgba(4, 40, 79, 0) 68%);
+  background: radial-gradient(
+    ellipse,
+    rgba(4, 40, 79, 0.25),
+    rgba(4, 40, 79, 0) 68%
+  );
   filter: blur(12px);
   transform: scaleX(0.96);
   pointer-events: none;
@@ -840,7 +844,7 @@ a {
 .hero-avatar-rosario {
   z-index: 3;
   left: -6%;
-  bottom: 130px;
+  bottom: 170px;
   width: 34%;
   height: 94%;
   --enter-x: -46px;
@@ -852,7 +856,7 @@ a {
 .hero-avatar-fatima {
   z-index: 4;
   left: 18%;
-  bottom: 135px;
+  bottom: 175px;
   width: 34%;
   height: 92%;
   --enter-x: -20px;
@@ -864,7 +868,7 @@ a {
 .hero-avatar-hector {
   z-index: 5;
   left: 43%;
-  bottom: 130px;
+  bottom: 170px;
   width: 33%;
   height: 47%;
   --enter-x: 22px;
@@ -876,7 +880,7 @@ a {
 .hero-avatar-jaimito {
   z-index: 3;
   right: -5%;
-  bottom: 135px;
+  bottom: 175px;
   width: 32%;
   height: 86%;
   --enter-x: 48px;
