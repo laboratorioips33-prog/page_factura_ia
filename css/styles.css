@@ -840,6 +840,7 @@ a {
 .hero-avatar-rosario {
   z-index: 3;
   left: -6%;
+  bottom: 130px;
   width: 34%;
   height: 94%;
   --enter-x: -46px;
@@ -851,6 +852,7 @@ a {
 .hero-avatar-fatima {
   z-index: 4;
   left: 18%;
+  bottom: 135px;
   width: 34%;
   height: 92%;
   --enter-x: -20px;
@@ -862,8 +864,9 @@ a {
 .hero-avatar-hector {
   z-index: 5;
   left: 43%;
+  bottom: 130px;
   width: 33%;
-  height: 94%;
+  height: 47%;
   --enter-x: 22px;
   --idle-duration: 7.1s;
   --idle-delay: -4.4s;
@@ -873,6 +876,7 @@ a {
 .hero-avatar-jaimito {
   z-index: 3;
   right: -5%;
+  bottom: 135px;
   width: 32%;
   height: 86%;
   --enter-x: 48px;
